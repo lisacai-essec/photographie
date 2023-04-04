@@ -1,0 +1,42 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.navbar.is-link {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://unsplash.it/1920/1080?random') no-repeat center center fixed
+}
+
+/* Prix */
+.spacer{
+    height: 40px;
+}
+.plan_title{
+    margin-bottom: 0 !important;
+}
+.plan_subtitle{
+    color: #90A4AE;
+}
+.price{
+    margin-top: 40px;
+}
+.price h2{
+    color: #00C4A7;
+}
+.price span{
+    font-size: 20px; 
+}
+.unavailable{
+    text-decoration:line-through;
+    color: #90A4AE;
+}
+.best_selling{
+    background: #003049;
+}
+.best_selling h2{
+    color: #F77F00;
+}
+.best_selling_btn{
+    background: #f77f00 !important;
+}
